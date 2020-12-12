@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Kernel Source -->  
+  <project name="nickverse/android_kernel_samsung_universal7885"      path="kernel/samsung/universal7885"      remote="github" revision="lineage-17.1" />
+<!-- Device Tree -->  
+  <project name="nickverse/android_device_samsung_a20e"      	      path="device/samsung/a20e"               remote="github" revision="lineage-17.1" />
+<!-- Vendor Tree -->  
+  <project name="nickverse/android_vendor_samsung_a20e"      	      path="vendor/samsung/a20e"               remote="github" revision="lineage-17.1" />
+<!-- Hardware -->
+  <project name="LineageOS/android_hardware_samsung"      	      path="hardware/samsung"                  remote="github" revision="lineage-17.1" />
+<!-- SELinux -->
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy"      path="device/samsung_slsi/sepolicy"      remote="github" revision="lineage-17.1" />
+</manifest>
